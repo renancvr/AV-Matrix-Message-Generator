@@ -1,11 +1,22 @@
-Script to generate the protocol messages for switching video in different matrixes
+# AV Matrix Message Generator
 
-So far, Kramer and Absolute are implemented
+This tool automates the generation of protocol commands for controlling AV matrix switchers used in professional audio-visual installations.  
+I built it to speed up the process of preparing serial/IP control sequences during system commissioning.
 
-Enter all inputs and outputs on a single line, separated by spaces.
-Example:
+### Supported Matrix Brands
+- **Kramer** (with optional audio routing)
+- **Absolute**
 
-The system uses a matrix with inputs 1, 2, and 3, and outputs 1 and 2.
+### Why This Tool?
+In AV integration workflows, matrix switching commands are often:
+- Manufacturer-specific
+- Verbose and error-prone to write manually
+- Repeated across multiple presets and rooms
+
+This script reduces configuration time and prevents human error during programming and testing.
+
+### Example Usage
+
 
 Inputs:
 1 2 3
@@ -14,3 +25,9 @@ Outputs:
 
 In the case of Kramer matrices with audio extraction,
 it is necessary to specify which audio outputs are being used.
+
+
+### Next Planned Features
+
+- Additional AV matrix brands
+- GUI frontend for technicians
