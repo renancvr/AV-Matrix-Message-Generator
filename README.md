@@ -1,6 +1,6 @@
 # AV Matrix Message Generator
 
-This tool automates the generation of protocol commands for controlling AV matrix switchers used in professional audio-visual installations.  
+This tool automates the generation of protocol messages for controlling AV matrix switchers used in professional audio-visual installations.  
 I built it to speed up the process of preparing serial/IP control sequences during system commissioning.
 
 ### Supported Matrix Brands
