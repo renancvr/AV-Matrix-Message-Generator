@@ -19,7 +19,7 @@ This script reduces configuration time and prevents human error during programmi
 
 
 Inputs:
-1 2 3
+1 2 3 4
 Outputs:
 1 2
 
