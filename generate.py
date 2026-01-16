@@ -27,7 +27,7 @@ if matrix_type == 1:
     for i in outs.split(' '):
 
         switch_video = "> SWT #: " + i + "\\x0D\\x0A"
-        switch_audio = "> SWA #: " + i + "\\x0D\\x0A"
+        switch_audio = "> SWA #: " + i + "\\x0D\\x0A"  #It seems the audio message is not needed to be sent separatedly anymore on new absolute devices
         msgs.append(switch_video)
         msgs.append(switch_audio)
 
